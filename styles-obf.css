@@ -1,0 +1,225 @@
+/* OBFUSCATED BY CSSOBFUSCATOR.COM at 2025/05/02 22:13:32 */
+header h1 {
+  color: #fff;
+}
+* {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+.feature-card img,
+.contact-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+[class~=hero] {
+  height: 350px;
+  background: url("images/swiss-valley.jpg") no-repeat center center/cover;
+  border-bottom-width: 0.0625in;
+  border-bottom-style: solid;
+  border-bottom-color: #ffb703;
+  border-image: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to bottom right, #e3f6f5, #fff);
+  color: #333;
+}
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #264653;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+[class~=intro] {
+  max-width: 9.375in;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0.125in;
+  box-shadow: 0 0.0625in 1.25pc rgba(0, 0, 0, 0.08);
+}
+[class~=features-duo] {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #fdfcdc;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+[class~=feature-card] {
+  flex: 1 1 300pt;
+  background-color: #fff;
+  border-radius: 0.625pc;
+  box-shadow: 0 3pt 0.125in rgba(0, 0, 0, 0.07);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+[class~=feature-card]:hover {
+  transform: translateY(-5px);
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #ffb703;
+}
+header {
+  background: linear-gradient(to right, #8ecae6, #219ebc);
+  color: white;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+footer {
+  background-color: #023047;
+  color: #f1f1f1;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+[class~=contact-layout] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(to right, #caf0f8, #ade8f4);
+  border-radius: 7.5pt;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 0 3pt 12px rgba(0, 0, 0, 0.07);
+}
+[class~=contact-image] {
+  flex: 1 1 40%;
+}
+[class~=contact-form] {
+  flex: 1 1 55%;
+}
+[class~=contact-form] form {
+  display: flex;
+  flex-direction: column;
+}
+[class~=contact-form] label,
+[class~=contact-form] legend {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #023047;
+}
+[class~=contact-form] input,
+[class~=contact-form] textarea {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  margin-top: 0.3rem;
+  border-radius: 0.3125pc;
+  border-left-width: 0.0625pc;
+  border-right-width: 0.0625pc;
+  border-top-width: 0.0625pc;
+  border-bottom-width: 0.0625pc;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-color: #ccc;
+  border-right-color: #ccc;
+  border-top-color: #ccc;
+  border-bottom-color: #ccc;
+  border-image: none;
+}
+[class~=contact-form] textarea {
+  height: 90pt;
+}
+[class~=contact-form] fieldset {
+  margin-top: 1rem;
+  border-left-width: medium;
+  border-right-width: medium;
+  border-top-width: medium;
+  border-bottom-width: medium;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-left-color: currentColor;
+  border-right-color: currentColor;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
+  border-image: none;
+}
+[class~=contact-form] button {
+  margin-top: 1.5rem;
+  background-color: #fb8500;
+  color: white;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border-left-width: medium;
+  border-right-width: medium;
+  border-top-width: medium;
+  border-bottom-width: medium;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-left-color: currentColor;
+  border-right-color: currentColor;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
+  border-image: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+[class~=contact-form] button:hover {
+  background-color: #ff6700;
+}
